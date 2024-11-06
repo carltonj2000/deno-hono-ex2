@@ -1,4 +1,8 @@
 {
+  "name": "@carltonj2000/deno-hono-ex2",
+  "version": "0.1.0",
+  "exports": "./main.ts",
+  "license": "MIT",
   "imports": {
     "@hono/hono": "jsr:@hono/hono@^4.6.9"
   }
