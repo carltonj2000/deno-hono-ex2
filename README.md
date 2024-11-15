@@ -2,6 +2,11 @@
 
 - Run the app via `deno -A main.ts`.
 - Compile the app via `deno compile -A main.ts`.
+  - docker
+    - `docker run -it -p 8000:8000 -v $PWD:/my-deno-project denoland/deno:2.0.6 run --allow-net /my-deno-project/main.ts`.
+    - `docker build -t my-deno-project .`
+      - `docker run -it -p 8000:8000 my-deno-project`
+- Used fly.io to deploy the docker container.
 
 ## Testing Requests
 

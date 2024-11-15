@@ -1,0 +1,4 @@
+# flyctl launch added from .gitignore
+**/deno-hono-ex2
+
+fly.toml
